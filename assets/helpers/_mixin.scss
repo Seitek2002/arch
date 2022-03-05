@@ -1,0 +1,8 @@
+@mixin font($size, $weight, $color) {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: 12px;
+  color: $color;
+}

@@ -39,10 +39,6 @@
     }
   }
   &__link {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 12px;
-    color: #333333;
+    @include font(12px, 400, #333333);
   }
 }

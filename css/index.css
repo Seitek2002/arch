@@ -188,7 +188,7 @@
   width: 0;
   height: 1px;
   background-color: #333333;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .header__item::before {
@@ -205,11 +205,21 @@
 }
 
 .header__link {
+  font-family: "TT Hoves";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 12px;
   color: #333333;
+}
+
+.header__test {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 12px;
+  color: yellow;
 }
 
 .container {
