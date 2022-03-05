@@ -3,6 +3,7 @@
     "mappings": "",
     "sources": [
         "../assets/scss/index.scss",
+        "../assets/fonts/_fonts.scss",
         "../assets/helpers/_variables.scss",
         "../assets/helpers/_mixin.scss",
         "../assets/components/_classes.scss",
