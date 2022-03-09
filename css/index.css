@@ -181,8 +181,8 @@
 }
 
 .btn__white svg {
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   margin-left: 15px;
 }
 
@@ -195,8 +195,8 @@
 }
 
 .btn__black svg {
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   margin-left: 15px;
 }
 
@@ -218,6 +218,13 @@
 
 .btn__slide::after {
   content: "";
+}
+
+.page__title {
+  font-family: "TT Hoves";
+  font-weight: 300;
+  font-size: 64px;
+  color: #bdbdbd;
 }
 
 .header {
@@ -302,11 +309,6 @@
 }
 
 .hero__project {
-  font-family: "TT Hoves";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 64px;
-  color: #bdbdbd;
   animation: project 2s linear infinite alternate-reverse;
 }
 
@@ -391,6 +393,52 @@
     -webkit-transform: translateX(100px);
             transform: translateX(100px);
   }
+}
+
+.about__descr {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  margin: 20px 0;
+}
+
+.about__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__left img {
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.about__right {
+  max-width: 41.12%;
 }
 
 .container {

@@ -6,7 +6,6 @@
         max-width: 59%;
     }
     &__project {
-        @include font(64px, 300, #bdbdbd);
         animation: project 2s linear infinite alternate-reverse;
     }
     &__name {
