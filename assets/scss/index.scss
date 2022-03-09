@@ -6,6 +6,7 @@
 @import "../components/classes";
 @import "../components/header";
 @import "../components/hero";
+@import "../components/about";
 @import "../components/footer";
 
 .container {
@@ -40,4 +41,9 @@ a {
 
 img {
   max-width: 100%;
+}
+
+button{
+  border: none;
+  cursor: pointer;
 }

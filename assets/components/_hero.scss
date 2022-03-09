@@ -1,0 +1,64 @@
+.hero {
+    &__content {
+        @include flex(flex, space-between, center);
+    }
+    &__right {
+        max-width: 59%;
+    }
+    &__project {
+        @include font(64px, 300, #bdbdbd);
+        animation: project 2s linear infinite alternate-reverse;
+    }
+    &__name {
+        @include font(64px, bold, #333333);
+        animation: project 3s linear infinite alternate-reverse;
+    }
+    &__title {
+        &:hover .hero__name,
+        &:hover .hero__project {
+            animation-play-state: paused;
+        }
+    }
+    &__slide {
+        position: relative;
+    }
+    &__details {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    &__pagination {
+        @include font(24px, normal, #bdbdbd);
+        left: -33%;
+        .swiper-pagination-total {
+            margin-left: 30px;
+        }
+        .swiper-pagination-current {
+            margin-right: 30px;
+        }
+    }
+    &__img--invert {
+        filter: invert(1);
+    }
+    .btn {
+        &__slide {
+            top: 80%;
+            left: 12%;
+        }
+    }
+    .swiper-button-next {
+        left: 18%;
+        img {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+@keyframes project {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}

@@ -3,6 +3,11 @@
   font-style: normal;
   font-weight: $weight;
   font-size: $size;
-  line-height: 12px;
   color: $color;
+}
+
+@mixin flex($display, $justify, $align) {
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
 }
