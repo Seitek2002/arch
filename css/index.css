@@ -292,6 +292,10 @@
   color: #333333;
 }
 
+.hero {
+  margin-top: 0;
+}
+
 .hero__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -441,6 +445,42 @@
   max-width: 41.12%;
 }
 
+.tasks__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tasks__left, .tasks__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 50%;
+}
+
+.tasks__num {
+  font-weight: 900;
+  font-size: 200px;
+  color: #333;
+}
+
+.tasks__descr {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: #333333;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -478,5 +518,9 @@ img {
 button {
   border: none;
   cursor: pointer;
+}
+
+section {
+  margin-top: 120px;
 }
 /*# sourceMappingURL=index.css.map */
